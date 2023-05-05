@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Examen4Diferido"
         tools:targetApi="31">
         <activity
+            android:name=".ClienteVehiculo"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Vehiculos"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
