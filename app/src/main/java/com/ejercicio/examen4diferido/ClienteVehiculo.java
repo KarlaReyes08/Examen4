@@ -92,8 +92,8 @@ Button btnRegist, btnUpd, btndelet, btnBusc;
                         "from MD_ClienteVehiculo where ID_Cliente="+codigo, null);
 
                 if(filas.moveToFirst()){
-                    txtMatri.setText(filas.getString(1));
-                    txtKilome.setText(filas.getString(2));
+                    txtMatri.setText(filas.getString(0));
+                    txtKilome.setText(filas.getString(1));
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "No se encontro este registro", Toast.LENGTH_SHORT).show();
